@@ -1,0 +1,20 @@
+{
+  "name": "express-vercel",
+  "version": "1.0.0",
+  "description": "Express JS upload to Vercel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "express-js",
+    "vercel"
+  ],
+  "author": "Dava Ryaldi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}

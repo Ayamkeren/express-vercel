@@ -1,20 +1,19 @@
 {
   "name": "express-vercel",
-  "version": "1.0.0",
-  "description": "Express JS upload to Vercel",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+		"dev": "nodemon index.js"
   },
-  "keywords": [
-    "express-js",
-    "vercel"
-  ],
-  "author": "Dava Ryaldi",
-  "license": "ISC",
   "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
     "express": "^4.19.2",
+    "http-errors": "~1.6.3",
+    "jade": "^1.9.2",
+    "morgan": "~1.9.1",
     "nodemon": "^3.1.0"
   }
 }
